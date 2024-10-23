@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './main.css'
 import { food } from '../../../api/foodAPI'
-import DishCards from './cardFood/DishCards'
-import { iconSVG } from '../../../api/iconsAPI'
+import DishCards from './foodCards/DishCards'
 
 export default function Dishes() {
 	const dishesArr = [

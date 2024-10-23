@@ -11,26 +11,6 @@ export const food = {
 			descr: 'На скорую руку, из бюджетных продуктов, просто и вкусно! ',
 			img: `https://avatars.mds.yandex.net/i?id=2a0000017a0aa84a6ad35c636d82e4859572-5206685-images-thumbs&n=13`,
 		},
-		cottageBanana1: {
-			name: 'Творог с бананом',
-			descr: 'Нежный, полезный, безумно вкусный завтрак для всей семьи',
-			img: `https://avatars.mds.yandex.net/i?id=675e57273299750616a6b616cbbaeab0a2429059-10122878-images-thumbs&n=13`,
-		},
-		caramelizedApples1: {
-			name: 'Карамелизованые яблоки',
-			descr: 'На скорую руку, из бюджетных продуктов, просто и вкусно! ',
-			img: `https://avatars.mds.yandex.net/i?id=2a0000017a0aa84a6ad35c636d82e4859572-5206685-images-thumbs&n=13`,
-		},
-		cottageBanana2: {
-			name: 'Творог с бананом',
-			descr: 'Нежный, полезный, безумно вкусный завтрак для всей семьи',
-			img: `https://avatars.mds.yandex.net/i?id=675e57273299750616a6b616cbbaeab0a2429059-10122878-images-thumbs&n=13`,
-		},
-		caramelizedApples2: {
-			name: 'Карамелизованые яблоки',
-			descr: 'На скорую руку, из бюджетных продуктов, просто и вкусно! ',
-			img: `https://avatars.mds.yandex.net/i?id=2a0000017a0aa84a6ad35c636d82e4859572-5206685-images-thumbs&n=13`,
-		},
 	},
 
 	// выпечка
