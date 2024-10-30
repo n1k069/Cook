@@ -6,11 +6,13 @@
   user-select: none;
 }
 body {
+	background-image: url(../../public/images/side-wave_background.jpg);
+	background-size: cover;
 	font-family: 'JetBrains Mono', serif;
 	font-optical-sizing: auto;
 	overflow: hidden;
 	box-sizing: border-box;
 	width: 100%;
 	height: 100vh;
-	padding: 35px 0 20px 20px;
+	padding: 15px 0 20px 20px;
 }
