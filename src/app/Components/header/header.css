@@ -8,8 +8,8 @@
 }
 .btn {
 	position: absolute;
-	top: 0px;
-	left: 77%;
+	top: 5px;
+	left: 85%;
 	display: flex;
 	align-items: center;
 	gap: 3px;

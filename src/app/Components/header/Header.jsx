@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './header.css'
 import { iconSVG } from '../../../api/iconsAPI'
-export default function Header() {
+export default function Header({ handleSearch }) {
 	const [personName, setPersonName] = useState(null)
 
 	useEffect(() => {
@@ -18,6 +18,7 @@ export default function Header() {
 			setPersonName('Войдите в профиль...')
 		}
 	}, [])
+
 	return (
 		<div className='header'>
 			<h5>{personName}</h5>
@@ -25,8 +26,10 @@ export default function Header() {
 				Cook Like a <span className='blue'>Chef</span>
 			</h2>
 			<div className='btn'>
-				<div dangerouslySetInnerHTML={{ __html: iconSVG.search }}></div>
-				<div dangerouslySetInnerHTML={{ __html: iconSVG.menu }}></div>
+				<div
+					dangerouslySetInnerHTML={{ __html: iconSVG.search }}
+					onClick={handleSearch}
+				></div>
 			</div>
 		</div>
 	)
