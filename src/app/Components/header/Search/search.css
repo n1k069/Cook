@@ -1,8 +1,12 @@
+* {
+	font-family: 'JetBrains Mono', serif;
+}
 .searchContainer {
 	width: 100%;
 	height: 100vh;
+	overflow-y: auto;
 	background-color: #fff;
-	padding: 20px;
+	padding: 25px 30px 0 20px;
 	box-sizing: border-box;
 }
 
@@ -13,9 +17,9 @@
 }
 
 .center input {
-	width: 70%;
+	width: 80%;
 	height: 50px;
-	border: 1px solid #808080;
+	border: 1px solid grey;
 	border-radius: 5px 0 0 5px;
 	font-size: 18px;
 	padding: 10px;
@@ -24,10 +28,11 @@
 }
 
 .icon {
-    cursor: pointer;
+	outline: none;
+	cursor: pointer;
 	width: 50px;
 	height: 50px;
-	border: 1px solid gray;
+	border: 1px solid grey;
 	border-left: 0;
 	border-right: 0;
 	display: flex;
@@ -35,7 +40,44 @@
 	justify-content: center;
 
 	&:last-child {
-		border-right: 1px solid gray;
-        border-radius: 0 5px 5px 0;
+		border-right: 1px solid grey;
+		border-radius: 0 5px 5px 0;
 	}
+}
+
+.searchCards {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.26);
+	-moz-box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.26);
+	box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.26);
+}
+
+.searchCards .img {
+	border-radius: 20px 0 0 20px;
+	min-width: 180px;
+	height: 150px;
+}
+
+.searchCards div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	width: 100%;
+}
+
+.searchCards div h1 {
+	font-size: 15px;
+	color: black;
+	text-align: center;
+}
+
+.searchContainer h1 {
+	text-align: center;
+	color: gray;
 }

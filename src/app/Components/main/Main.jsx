@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Dishes from './CardRendering'
+import CardRendering from './CardRendering'
 import DishCards from './foodCards/DishCards'
 import { food } from '../../../api/foodAPI'
 import { iconSVG } from '../../../api/iconsAPI'
@@ -68,7 +68,7 @@ export default function Main() {
 			) : (
 				<>
 					<div className='main'>
-						<Dishes />
+						<CardRendering />
 						<DishCards />
 					</div>
 					<div className='strike'></div>

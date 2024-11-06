@@ -8,12 +8,15 @@ export default function App() {
 	const [isSearch, setIsSearch] = useState(false)
 
 	const handleSearch = () => {
-		setIsSearch(!isSearch)
+		setIsSearch(true)
 	}
+  const handleСlosures = () => {
+    setIsSearch(false)
+  }
 	return (
 		<>
 			{isSearch ? (
-				<Search />
+				<Search handleСlosures={handleСlosures} />
 			) : (
 				<div className='container'>
 					<Header handleSearch={handleSearch} />

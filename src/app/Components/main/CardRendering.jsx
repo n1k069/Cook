@@ -3,7 +3,7 @@ import './main.css'
 import { food } from '../../../api/foodAPI'
 import DishCards from './foodCards/DishCards'
 
-export default function Dishes() {
+export default function CardRendering() {
 	const dishesArr = [
 		'Дессерты',
 		'Выпечка',
